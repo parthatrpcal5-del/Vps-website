@@ -1,11 +1,11 @@
 services:
   - type: web
-    name: novahost
+    name: apex-hosting
     runtime: node
     buildCommand: npm install
     startCommand: npm start
     disk:
-      name: novahost-data
+      name: apex-hosting-data
       mountPath: /opt/render/project/src/data
       sizeGB: 1
     envVars:
