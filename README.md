@@ -1,4 +1,4 @@
-# NovaHost
+# Apex Hosting
 
 Hosting company platform. One backend file (`app.js`). First run auto-builds views, CSS and JS.
 
