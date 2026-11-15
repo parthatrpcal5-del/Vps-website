@@ -1,6 +1,6 @@
 'use strict';
 /*
- * NOVAHOST — complete hosting platform in ONE file. AUTO-BUILD style:
+ * APEX HOSTING — complete hosting platform in ONE file. AUTO-BUILD style:
  * first run generates views/, partials, public/css, public/js, database, seed data.
  *
  *   npm i express ejs express-session sqlite3 bcryptjs helmet express-rate-limit multer
@@ -540,7 +540,7 @@ const get = (q, p = []) => new Promise((res, rej) => db.get(q, p, (e, r) => e ? 
 const all = (q, p = []) => new Promise((res, rej) => db.all(q, p, (e, r) => e ? rej(e) : res(r)));
 
 const DEF = {
-  site_name: 'NovaHost', tagline: 'Boutique hosting with real dedicated resources. Game servers, VPS, VDS, RDP, bots and websites — capped nodes, zero overselling.',
+  site_name: 'Apex Hosting', tagline: 'Boutique hosting with real dedicated resources. Game servers, VPS, VDS, RDP, bots and websites — capped nodes, zero overselling.',
   announcement: '🚀 Launch offer: use code WELCOME10 for 10% off your first order', currency: '₹', support_email: 'support@example.com', discord_url: '',
   rate_core: '70', rate_ram: '40', rate_disk: '2.5', discount_3: '5', discount_6: '10', discount_12: '15', node_cores: '6', node_ram: '24', enforce_cap: '1',
   payment_methods: 'Discord Ticket,UPI,Bank Transfer', payment_instructions: 'Open a ticket or join our Discord with your order number to complete payment.\nYour order activates as soon as payment is confirmed.',
