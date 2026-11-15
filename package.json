@@ -1,0 +1,22 @@
+{
+  "name": "novahost",
+  "version": "1.0.0",
+  "description": "Hosting company platform - single-file Express + EJS + SQLite app",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "rebuild": "REBUILD=1 node app.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "ejs": "^7.0.2",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.4",
+    "express-session": "^1.19.0",
+    "helmet": "^8.3.0",
+    "multer": "^2.0.0",
+    "sqlite3": "^6.0.1"
+  }
+}
