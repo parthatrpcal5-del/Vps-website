@@ -1,5 +1,5 @@
 {
-  "name": "novahost",
+  "name": "apex-hosting",
   "version": "1.0.0",
   "description": "Hosting company platform - single-file Express + EJS + SQLite app",
   "main": "app.js",
